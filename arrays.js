@@ -43,3 +43,18 @@ var middleNums = numbers.splice(1,3)
 */
 
 // CODE HERE
+
+let x = bigOrSmall([1, 99, 100, 200])
+
+function bigOrSmall(arr) {
+  var answers = []
+  for (i = 0; i < arr.length; i++) {
+    if (arr[i] > 100) {
+      answers.push('big')
+    } else if (arr[i] <= 100) {
+      answers.push('small')
+    } 
+  } return answers
+} 
+
+console.log(x)
