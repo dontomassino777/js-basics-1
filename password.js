@@ -18,7 +18,7 @@ reader.question("Please enter your password here (must be at least 10 characters
     if (answer.length < 10) {
         console.log("Sorry, that password is too short! Must be at least 10 characters!")
     } else if (answer.length >= 10) {
-        console.log("Success!")
+        console.log("Success! Password validated.")
     }
 })
 
