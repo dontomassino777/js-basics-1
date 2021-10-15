@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+var gitDefinition = "Git is a version control program - it allows programmers to track changes, prevent bugs, and see all the versions of a code project from the earliest iteration to the latest"
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +18,7 @@
 */
 
 //CODE HERE
+var gitHubDefinition = "GitHub is a website - an online cloud storage for uploading and accessing Git repositories."
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -34,6 +35,7 @@
 */
 
 //CODE HERE
+const init = {description:"initializes the git preparatory to pushing", code:"git init"};
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,6 +44,7 @@
 */
 
 //CODE HERE
+const clone = {description:"copies a repo from Github and puts it on my machine", code:"git clone REPO_URL"};
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +53,7 @@
 */
 
 //CODE HERE
+const status = {description:"shows the current state of your Git working directory and staging area", code:"git status"};
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +62,7 @@
 */
 
 //CODE HERE
+const add = {description:"adds files to be tracked", code:"git add"};
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,7 +71,7 @@
 */
 
 //CODE HERE
-
+const commit = {description:"creates a snapshot of the files I’m tracking, includes a description", code:"git commit"};
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +80,4 @@
 */
 
 //CODE HERE
+const push = {description:"puts my local commits on Github", code:"git push"};
